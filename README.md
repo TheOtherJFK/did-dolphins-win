@@ -1,16 +1,13 @@
-# did_the_dolphins_win
+# Did the Dolphins Win a Game?
 
-A Flutter app to get notified if the Dolphins win a game.
+The Dolphins are still the Dolphins - save time and avoid watching another blowout!
 
-## Getting Started
+This Flutter app sends a notification when the Dolphins win a game.
 
-This project is a starting point for a Flutter application.
+It uses realtime data from MySportsFeeds to show scores and determine when to send a notification.
 
-A few resources to get you started if this is your first Flutter project:
+The main purpose of this app (aside from poking fun at the Miami Dolphins) is:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Get to know Google's Firebase Cloud Messenger service to send notifications.
+- Learn the best way to manage user preferences (storing State is a hot topic in Flutter right now)
+- Experiment with Streams and Futures
